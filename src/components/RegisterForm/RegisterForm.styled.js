@@ -1,16 +1,30 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
+  /* display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 3px solid #8c6966;
+  border-radius: 4px;
+  margin: 0 auto; */
+
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  width: 400px;
+  padding: 12px;
+  background-color: rgba(86, 82, 82, 0.6);
+  border: 3px solid #3f424d;
+  border-radius: 4px;
+  margin: 0 auto;
 `;
 
 export const Label = styled.label`
   display: flex;
   flex-direction: column;
   margin-bottom: 16px;
-  color: #3b3432;
+  color: #dcdfea;
   font-size: 20px;
   /* margin-bottom: 10px; */
 `;

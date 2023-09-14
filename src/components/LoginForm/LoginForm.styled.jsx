@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 
 export const Form = styled.form`
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 12px;
+  background-color: rgba(86, 82, 82, 0.6);
+  border: 3px solid #3f424d;
+  border-radius: 4px;
+  margin: 0 auto; */
+
+  display: flex;
+  flex-direction: column;
+  width: 400px;
   padding: 12px;
   background-color: rgba(86, 82, 82, 0.6);
   border: 3px solid #3f424d;

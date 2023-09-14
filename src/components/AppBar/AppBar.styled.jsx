@@ -7,5 +7,6 @@ export const Header = styled.header`
   margin: 20px auto;
   border: 3px solid #695959;
   background-color: #c3d4cb;
-  width: 100%;
+  /* width: 100%; */
+  width: 768px;
 `;
