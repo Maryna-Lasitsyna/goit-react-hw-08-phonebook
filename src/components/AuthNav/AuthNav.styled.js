@@ -9,7 +9,7 @@ export const Links = styled(NavLink)`
   border-radius: 4px;
   color: #2a363b;
 
-  &.hover {
+  &.active {
     color: #fff;
     background-color: #d1a5c1;
   }

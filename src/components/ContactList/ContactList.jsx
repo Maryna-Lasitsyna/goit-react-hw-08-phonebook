@@ -4,9 +4,9 @@ import {
   selectFilteredContacts,
   selectIsLoading,
   selectError,
-} from 'redux/selectors';
+} from 'redux/contacts/selectors';
 import { Loader } from '../Loader/Loader';
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from 'redux/contacts/operations';
 import ContactItem from '../ContactItem/ContactItem';
 
 function ContactList() {
