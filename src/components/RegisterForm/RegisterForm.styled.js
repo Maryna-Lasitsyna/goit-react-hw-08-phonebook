@@ -47,12 +47,14 @@ export const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 30px 90px ;
+  width: 200px;
   padding: 8px 12px;
   font-size: 20px;
   font: inherit;
   border-radius: 4px;
-  border: 3px solid #7c7d74;
+  /* border: 3px solid #7c7d74; */
+  border: 3px solid #353742;
 
   &:hover {
     background-color: #ebdfdd;

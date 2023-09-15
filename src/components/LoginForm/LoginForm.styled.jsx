@@ -40,6 +40,8 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
+  margin: 30px 90px;
+  width: 200px;
   font: inherit;
   cursor: pointer;
   border-radius: 4px;
