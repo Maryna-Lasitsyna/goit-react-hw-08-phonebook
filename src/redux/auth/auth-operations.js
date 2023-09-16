@@ -11,6 +11,7 @@ const clearAuthHeader = () => {
   axios.defaults.headers.common.Authorization = '';
 };
 
+//   После успешной регистрации добавляем токен в HTTP-заголовок
 export const register = createAsyncThunk(
   'auth/register',
   async (credentials, thunkAPI) => {
@@ -24,6 +25,7 @@ export const register = createAsyncThunk(
   }
 );
 
+// После успешного логина добавляем токен в HTTP-заголовок
 export const logIn = createAsyncThunk(
   'auth/login',
   async (credentials, thunkAPI) => {
@@ -37,6 +39,7 @@ export const logIn = createAsyncThunk(
   }
 );
 
+// После успешного логаута, удаляем токен из HTTP-заголовка
 export const logOut = createAsyncThunk('auth/logout', async (_, thunkAPI) => {
   try {
     await axios.post('/users/logout');
@@ -46,6 +49,9 @@ export const logOut = createAsyncThunk('auth/logout', async (_, thunkAPI) => {
   }
 });
 
+// * 1. Забираем токен из стейта через getState()
+//  * 2. Если токена нет, выходим не выполняя никаких операций
+//  * 3. Если токен есть, добавляет его в HTTP-заголовок и выполянем операцию
 export const refreshUser = createAsyncThunk(
   'auth/refresh',
   async (_, thunkAPI) => {

@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 
 export const Input = styled.input`
-  padding: 10px;
   border-radius: 4px;
   border: none;
   outline: 0px;
   background-color: rgb(255, 255, 255);
+
+  width: 200px;
+  padding: 12px;
+  /* background-color: rgba(86, 82, 82, 0.6); */
+  border: 3px solid #3f424d;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 `;
