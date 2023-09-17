@@ -13,8 +13,8 @@ export default function UserMenu() {
   return (
     <Container>
       <Avatar src={avatar} alt="avatar" />
-      <Text>Welcome, {user }</Text>
-      {/* <Text>Welcome, {user?.name || 'Guest'}!</Text> */}
+      <Text>Welcome, {user}</Text>
+
       <Button type="button" onClick={() => dispatch(logOut())}>
         LogOut
       </Button>

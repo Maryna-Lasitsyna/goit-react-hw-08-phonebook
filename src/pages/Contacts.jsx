@@ -12,7 +12,7 @@ function Contacts() {
           <title>Phonebook</title>
         </Helmet>
         <ContactForm />
-        {/* <h2>Contacts</h2> */}
+
         <Text>Contacts</Text>
         <Filter />
         <ContactList />

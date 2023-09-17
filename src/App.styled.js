@@ -6,12 +6,7 @@ export const Container = styled.div`
   align-items: center;
   margin-bottom: 20px;
   height: 100vh;
-  /* text-align: center; */
 `;
-
-// export const Title = styled.h1`
-//   margin-top: 20px;
-// `;
 
 export const Heading = styled.h2`
   margin-bottom: 20px;

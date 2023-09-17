@@ -11,10 +11,6 @@ import { Container } from './App.styled';
 import { Layout } from './components/Layout/Layout';
 import { Loader } from './components/Loader/Loader';
 
-// const HomePage = lazy(() => import('./pages/Home'));
-// const RegisterPage = lazy(() => import('./pages/Register'));
-// const LoginPage = lazy(() => import('./pages/Login'));
-// const ContactsPage = lazy(() => import('./pages/Contacts'));
 const Home = lazy(() => import('./pages/Home'));
 const Register = lazy(() => import('./pages/Register'));
 const Login = lazy(() => import('./pages/Login'));
