@@ -64,6 +64,8 @@ const ContactForm = () => {
         required
         value={number}
         onChange={handleNumberChange}
+        placeholder="Enter your phone number in the format ХХХ-ХХ-ХХ"
+       
       />
       <Button type="submit">Add Contact</Button>
     </Form>
